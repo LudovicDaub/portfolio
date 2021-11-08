@@ -8,9 +8,9 @@ const Project = (props) => {
   const project = currentProject[props.projectNumber]
 
   // random background circle
-  let left = Math.floor(Math.random() * 200 + 700) + 'px'
-  let top = Math.floor(Math.random() * 200 + 150) + 'px'
-  let size = 'scale(' + (Math.random() + 0.7) + ')'
+  let left = Math.floor(Math.random() * 15 + 70) + '%'
+  let top = Math.floor(Math.random() * 20 + 10) + '%'
+  let size = 'scale(' + Math.random() + ')'
 
   const variants = {
     initial: {
@@ -91,7 +91,7 @@ const Project = (props) => {
             rel="noopener noreferrer"
             className="hover"
           >
-            <span className="button">voir le site</span>
+            <span className="button">Voir le site</span>
           </a>
         </div>
       </motion.div>

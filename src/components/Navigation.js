@@ -6,11 +6,11 @@ const Navigation = () => {
     <div className="navigation">
       <ul>
         <NavLink to="/" exact activeClassName="nav-active" className="hover">
-          <li>accueil</li>
+          <li>Accueil</li>
         </NavLink>
 
         <li className="nav-portfolio">
-          portfolio
+          Portfolio
           <ul className="nav-projects">
             <NavLink
               to="/projet-1"
@@ -37,7 +37,7 @@ const Navigation = () => {
         </li>
 
         <NavLink to="/contact" activeClassName="nav-active" className="hover">
-          <li>contact</li>
+          <li>Contact</li>
         </NavLink>
       </ul>
     </div>
